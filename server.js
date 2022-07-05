@@ -58,7 +58,10 @@ app.post("/login", (req, res) => {
       res.sendStatus(400)
     })
 })
-
+//testing
+app.get('/', (req, res) => {
+  res.send('Server works!');
+});
 app.get("/lyrics", async (req, res) => {
   const lyrics =
     (await lyricsFinder(req.query.artist, req.query.track)) || "No Lyrics Found"
