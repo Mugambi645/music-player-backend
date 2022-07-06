@@ -7,8 +7,7 @@
 - git clone https://github.com/Mugambi645/music-player
 - cd music player
 - npm install
-
-# Listening at http://localhost:3001
+- Listening at http://localhost:3001
 
 
 
